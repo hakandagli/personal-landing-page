@@ -1,0 +1,64 @@
+#navbar-container{
+    padding-right:4rem;
+    padding-left: 4rem;
+}
+
+#navbar-container.sticky{
+    background-color: #2C3E50;
+    padding:1rem 4rem;
+}
+
+/*İLETİŞİM*/
+
+#contact-form {
+    width: 80%;
+}
+
+.col{
+    width: 50%;
+}
+#container-footer{
+    flex-direction:row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+/*ABOUT*/
+.wrapper{
+    padding-top: 2rem;
+}
+#about-part{
+    flex-direction: column;
+}
+#foto-div img{
+    max-width:55rem;
+}
+#buton-text{
+    align-items:center;
+}
+.title-1{
+    text-align: center;
+}
+
+/*SERVİCES*/
+#services-container{
+    flex-direction: column;
+    
+}
+.services-col{
+    width: 80%;
+}
+
+.services-col:not(:first-child){
+    margin-top:5rem;
+}
+
+/*PORTFOLYO*/
+#fotos{
+    width: 80%;
+}
+
+.foton{
+    width: 49%;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,106 @@
+html{
+    font-size:8px;
+}
+
+
+/*NAVBAR*/
+#navbar-container{
+    flex-direction: column;
+    align-items:flex-start;
+  
+}
+
+#nav-logo{
+    position: relative;
+    display: flex;
+}
+
+#nav-logo img{
+    height:3.5rem;
+}
+
+nav ul{
+    flex-direction: column;
+}
+
+nav ul li{
+    padding:0.4rem 0;
+}
+
+nav ul li a{
+    font-size:2rem;
+}
+
+#nav-links li:first-child{
+    display:inline;
+    position: absolute;
+    top:-1rem;
+    right:1rem;
+}
+
+#nav-links.responsive li:not(:first-child){
+   display:none;
+}
+
+#nav-deneme{
+    position: absolute;
+    top:2.5rem;
+    right:3rem;
+    font-size:2.5rem;
+    background-color: transparent;
+    border:none;
+    color:white;
+}
+
+
+/*HEADER*/
+.main-title{
+   font-size:7rem;
+}
+
+.sub-title{
+   font-size:3rem;
+}
+
+.stick-text{
+    padding-right: 0.8rem;
+}
+
+
+/*ABOUT*/
+.nutuk{
+    display: flex;
+    flex-direction: column;
+}
+/*PORTFOLYO*/
+
+#fotos{
+    width: 90%;
+}
+
+.foton{
+    width: 99%;
+    margin-bottom: 2rem;
+}
+
+
+/*İLETİŞİM*/
+
+#contact-form {
+    width: 90%;
+}
+
+.btn{
+    width:100%;
+}
+
+/*FOOTER*/
+#container-footer{
+    flex-direction:column;
+    align-items: center;
+ }
+
+ .col:not(:last-child){
+    padding-bottom:2.5rem;
+}
+
